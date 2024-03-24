@@ -18,7 +18,7 @@ const PList = ({ property }: any) => {
 
   const temp = no_units === 0 ? 200 : no_units;
   return (
-    <div className="w-[300px] rounded-2xl shadow-xl my-5 mx-3">
+    <div className="w-[300px] rounded-2xl shadow-xl my-5 mx-2">
       {/* Image Container */}
       <div className="relative">
         {/* Land */}
