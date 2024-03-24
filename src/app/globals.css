@@ -10,6 +10,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 .container{
   @apply w-full px-3 lg:px-32 py-5 lg:py-10;
 }
