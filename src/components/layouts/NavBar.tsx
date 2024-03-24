@@ -56,20 +56,20 @@ const NavBar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white active:text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-expanded="false"
             >
               <HiOutlineMenuAlt1
                 className={`${
                   isMenuOpen ? "hidden" : "block"
-                } text-customBlack hover:text-white`}
+                } text-customBlack hover:text-white active:text-white`}
                 size={30}
               />
               {/* Close Icon */}
               <LiaTimesSolid
                 className={`${
                   isMenuOpen ? "block" : "hidden"
-                } text-customBlack hover:text-white `}
+                } text-customBlack hover:text-white active:text-white`}
                 size={30}
               />
             </button>
